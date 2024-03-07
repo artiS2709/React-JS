@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Greetings(props){
+function Greetings(props){    //props with functional component
     return (
         <>
         <h1>{props.topic}</h1>
