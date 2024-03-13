@@ -3,11 +3,15 @@ import './App.css';
 import Greetings from './components/Greet';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
+import Count from './components/Count';
+// import LifecycleA from './components/LifecycleA';
 
 function App() {
   return (
     <div className="App">
-      <Message/>
+      {/* <LifecycleA/> */}
+      <Count/>
+      {/*<Message/>*/}
       {/*<Greetings name ="Arti" topic="functional component"><p>This is a chidren props</p></Greetings>
       <Greetings name ="Anmol"/>
       <Greetings name ="Pooja"/>
